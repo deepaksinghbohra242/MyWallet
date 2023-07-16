@@ -13,7 +13,7 @@ function Dashboard() {
             <div className="  dropdown">
               <button
                 type="button"
-                className="btn btn-primary dropdown-toggle"
+                className="btn btn-primary dropdown-toggle d-flex "
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 aria-haspopup="true"
@@ -22,7 +22,7 @@ function Dashboard() {
               </button>
               <ul className="dropdown-menu">
                 <li className="dropdown-item">
-                  <Link to="/">Wallet</Link>
+                  <Link to="/create">Wallet</Link>
                 </li>
                 <li className="dropdown-item">
                   <button >Transaction</button>
